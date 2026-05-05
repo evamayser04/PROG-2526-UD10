@@ -1,16 +1,13 @@
 package a02;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Scanner;
+import java.util.*;
 
 
 public class A02 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+       try (Scanner sc = new Scanner(System.in)){
         
         Collection <Integer> numeros = new ArrayList<>();
-
+        
         System.out.println("Introduce los numeros que quieras guardar, dale a -1 si quieres acabar");
         int n = sc.nextInt();
 
@@ -44,6 +41,9 @@ public class A02 {
         }
 
         System.out.println("Lista sin multiplos de 3: " + numeros);
-
+    
+        } catch (Exception e) {
+            System.out.println("Error: ¡Debes introducir un número entero!");
+        }
     }
 }
