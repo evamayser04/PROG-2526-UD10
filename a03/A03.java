@@ -14,5 +14,12 @@ public class A03 {
 
         System.out.println("Coleccion de 20 numero aleatorios: \n" + num);
 
+        for(int n : num){
+            if(!numSinRepe.contains(n)){
+                numSinRepe.add(n);
+            }
+        }
+        
+        System.out.println("Colección sin repetidos: " + numSinRepe);
     }
 }
