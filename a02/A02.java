@@ -24,7 +24,7 @@ public class A02 {
 
         System.out.println("\nLista completa: " + numeros);
 
-        for (int num_par : numeros){
+        for (Integer num_par : numeros){
             if(num_par % 2 == 0){
                 System.out.println( "Valores pares de la lista: " + num_par);
             }
