@@ -42,7 +42,7 @@ public class A02 {
 
         System.out.println("Lista sin multiplos de 3: " + numeros);
     
-        } catch (Exception e) {
+        } catch (InputMismatchException e) {
             System.out.println("Error: ¡Debes introducir un número entero!");
         }
     }
