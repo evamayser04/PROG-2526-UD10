@@ -19,7 +19,7 @@ public class A10 {
         System.out.println("¿Se ha duplicado? " + duplicado);
         System.out.println("Lista de HashSet desordenado : \n" + conjuntoSocios);
 
-         Set<Socio> sociosOrdenados = new TreeSet<>(conjuntoSocios);
+        Set<Socio> sociosOrdenados = new TreeSet<>(conjuntoSocios);
         sociosOrdenados.add(new Socio("555", "Delia"));
         System.out.println("Lista de TreeSet, ordenado por DNI: \n" + sociosOrdenados);
 
