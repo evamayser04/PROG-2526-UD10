@@ -20,7 +20,7 @@ public class A11 {
                 System.out.println("5. Salir");
                 System.out.print("Elige opción: ");
                 opcion = sc.nextInt();
-                sc.nextLine(); // Limpiar buffer
+                sc.nextLine();
                 
                     if(opcion == 1) {
                         System.out.print("Dame tu codigo del producto: ");
